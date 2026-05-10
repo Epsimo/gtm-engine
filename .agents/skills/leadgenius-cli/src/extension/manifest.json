@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "LeadGenius Pro Automation",
+  "version": "2.0.0",
+  "description": "Browser interface for LeadGenius Pro Automation API",
+  "permissions": ["storage", "identity"],
+  "host_permissions": [
+    "https://api.leadgenius.app/*",
+    "http://localhost:3000/*",
+    "https://*.auth.us-east-1.amazoncognito.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html"
+}

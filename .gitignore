@@ -1,0 +1,26 @@
+# ── Credentials (NEVER commit) ──────────────────────────
+.env
+config/clients/*.json
+!config/_template.json
+
+# ── Client data & docs (contain credentials) ───────────
+data/clients/*/
+docs/
+
+# ── macOS resource forks ────────────────────────────────
+.DS_Store
+._*
+
+# ── Python ──────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# ── Node (skills may have deps) ─────────────────────────
+node_modules/
+
+# ── IDE ─────────────────────────────────────────────────
+.vscode/
+.idea/

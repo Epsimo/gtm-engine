@@ -1,0 +1,9 @@
+src/
+dist/bin/
+dist/bundle/
+node_modules/
+references/
+.git/
+.env*
+tsconfig.json
+*.tgz
