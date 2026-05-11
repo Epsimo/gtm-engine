@@ -395,10 +395,20 @@ Output:
 gtm-engine/
 │
 ├── .agents/skills/                     ← Shared AI agent skills (install once)
+│   ├── apify-lead-generation/          ✅ Lead generation via Apify scraping
+│   ├── cold-email-campaigns/           ✅ Cold email setup in Instantly
+│   ├── follow-up-nurture/              ✅ AI-generated follow-up nudges
+│   ├── ideal-customer-profile/         ✅ Synthesize and define ICP from data
+│   ├── intent-signal-aggregator/       ✅ Monitor intent signals across the web
+│   ├── lead-scraper/                   ✅ Scrape and enrich from LinkedIn
 │   ├── leadgenius-cli/                 ✅ LGP CLI commands & API reference
 │   ├── leadgenius-neon-sync/           ✅ Unified sync pipeline (the core engine)
+│   ├── linkedin-sales-navigator-alt/   ✅ Target prospect lists on LinkedIn
+│   ├── market-research-reports/        ✅ In-depth consulting-style reports
 │   ├── neon-postgres/                  ✅ Neon connection best practices
-│   └── notion-api/                     ✅ Notion API integration
+│   ├── notion-api/                     ✅ Notion API integration
+│   ├── sales-operations-setup/         ✅ Sales ops frameworks & best practices
+│   └── ... (and other GTM skills)      ✅ Brand identity, SEO, storytelling, etc.
 │
 ├── config/
 │   ├── _template.json                  ← Master template (committed)
